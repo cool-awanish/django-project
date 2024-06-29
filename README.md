@@ -1,2 +1,2 @@
 # django-project
-Add a new line to README.md
+This is a full scale Django web application
