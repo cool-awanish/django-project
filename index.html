@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,th,td {
+            border: 1px solid black;
+            border-radius: 10px;
+            border-collapse: collapse;
+            border-color: blue;
+            text-align: left;
+        }
+        div.mycontainer {
+          width: 100%;
+          overflow: auto;
+        }
+        div.mycontainer div{
+          width: 33%;
+          float: left;
+        }
+    </style>
 </head>
 <body>
     <h1>Universal Studios Presents</h1>
@@ -50,5 +67,61 @@
     <!-- HYPERLINKS -->
      <a href="https://www.youtube.com/">You Tube</a>
      <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools.com!</a>
-</body>
+
+     <!-- Tables -->
+    <h2>A basic HTML table</h2>
+    <table style="width:100%">
+        <caption>Monthly savings</caption>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$50</td>
+        </tr>
+      </table>
+
+    <!-- Block and Inline Elements -->
+    <p style="border: 1px solid black">Hello World</p>
+    <div style="border: 1px solid black">Hello World</div>
+
+    <p>The P and the DIV elements are both block elements, and they will always start on a new line and take up the full width available (stretches out to the left and right as far as it can).</p>
+    <!-- Block Leve Elements  
+    <address><article><aside><blockquote><canvas><dd><div><dl><dt><fieldset><figcaption><figure><footer><form><h1>-<h6><header><hr><li><main><nav><noscript><ol><p><pre><section><table><tfoot><ul><video>
+    -->
+    <div style="background-color:black;color:white;padding:20px;">
+      <h2>London</h2>
+      <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    </div>
+    <h1>HTML Div Example </h1>
+    Lorem Ipsum <div style="background-color: #FFF4A3">I am a div</div> dolor sit amet
+    <p>The yellow background is added to demonstrate the footprint of the DIV element.</p>
+
+    <div style="background-color:#FFF4A3;">
+      <h2>London</h2>
+      <p>London is the capital city of England.</p>
+      <p>London has over 13 million inhabitants.</p>
+    </div>
+    
+    <div  style="background-color:#FFC0C7;"">
+      <h2>Oslo</h2>
+      <p>Oslo is the capital city of Norway.</p>
+      <p>Oslo has over 600.000 inhabitants.</p>
+    </div>
+    
+    <div style="background-color:#D9EEE1;">
+      <h2>Rome</h2>
+      <p>Rome is the capital city of Italy.</p>
+      <p>Rome has almost 3 million inhabitants.</p>
+    </div>
+
+    <!-- Aligning <div> elements side by side -->
+
+    
+    </body>
 </html>
